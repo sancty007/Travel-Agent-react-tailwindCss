@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*------------------------------------*/
+/*-----------NavBar--------------------*/
+.navbarCustome {
+    @apply text-sm font-medium;
+  }
+
+.customColorBlue{
+ color: #35AFF4;
+}
+.customeBtn{
+  border: 1px solid #B7B7B7;
+  padding: 8px 20px 8px 8px 20px;
+  border-radius: 8px;
+  color: #454545;
+  font-weight: 16px;
+}
+
+.customeBtnSing{
+  width: 81px;
+  height: 40px;
+}
+.customeBtnLogin{
+  width: 96px;
+  height: 40px;
+  background-color: #181818;
+  color: white;
+}
+
+/*------------------------------------*/
+/*-----------Header--------------------*/
+
+
