@@ -4,31 +4,47 @@
 
 /*------------------------------------*/
 /*-----------NavBar--------------------*/
+body{
+  background-color: FFFFFF;
+}
+
+
+/* Nav bar  */
+
 .navbarCustome {
-    @apply text-sm font-medium;
-  }
+  @apply text-xl font-medium;
+}
 
 .customColorBlue{
- color: #35AFF4;
+color: #35AFF4;
 }
 .customeBtn{
-  border: 1px solid #B7B7B7;
-  padding: 8px 20px 8px 8px 20px;
-  border-radius: 8px;
-  color: #454545;
-  font-weight: 16px;
+border: 1px solid #B7B7B7;
+border-radius: 8px;
+color: #454545;
+@apply text-xl;
 }
 
 .customeBtnSing{
-  width: 81px;
-  height: 40px;
+width: 81px;
+height: 40px;
 }
 .customeBtnLogin{
-  width: 96px;
-  height: 40px;
-  background-color: #181818;
-  color: white;
+width: 96px;
+height: 40px;
+background-color: #181818;
+color: white;
 }
+
+.plCustome{
+  margin-left: 180px;
+}
+
+
+.pbcustomNav{
+  padding-top: 40px;
+}
+
 
 /*------------------------------------*/
 /*-----------Header--------------------*/

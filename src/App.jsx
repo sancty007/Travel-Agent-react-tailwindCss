@@ -1,6 +1,7 @@
 import { Navbar} from './components/NavBar/navabar.jsx'
 import { Header} from './components/Header/header.jsx'
-
+import { Logo } from './components/Logo/Logo.jsx'
+import { Product } from './components/Product/Product.jsx'
 
 //import viteLogo from '/vite.svg'
 //import './App.css'
@@ -14,6 +15,8 @@ function App() {
     <>
       <Navbar/>
       <Header/>
+      <Logo/>
+      <Product/>
     </>
   )
 }

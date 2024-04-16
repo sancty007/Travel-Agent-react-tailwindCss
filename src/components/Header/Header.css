@@ -1,14 +1,19 @@
-.customeImage {
-
+/* .customeImage {
     width:560px ;
     height:640px ;
-}
+} */
 
-.py-custom {
-    padding-top: 60px; /* 60px en haut */
-    padding-bottom: 60px; /* 60px en bas */
-}
+/* .py-custom {
+    padding-top: 60px;
+    padding-bottom: 60px; 
+} */
+/* .px-custom {
+    padding-top: 120px; 
+    padding-bottom: 120px; 
+} */
 
 .containerCustome {
-    @apply container mx-auto ;
-  }
+  @apply container mx-auto ;
+}
+
+
