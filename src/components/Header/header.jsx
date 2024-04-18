@@ -12,7 +12,7 @@ export const Header = () => {
                 <div className='container mx-auto flex py-14'>
                     <div className='w-1/2  mt-14 '>
                         <h1 className="text-left text-7xl font-bold pt-20">Discover your favorite place <br />with us</h1>
-                        <p className='mt-6 text-left'>
+                        <p className='mt-6 text-left text-gray-300'>
                             Your journey begins here with our curated travel experiences. <br />
                             Discover new horizons, create lasting memories, and explore 
                             the <br /> world with our expertly crafted itineraries.

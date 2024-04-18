@@ -2,6 +2,9 @@ import { Navbar} from './components/NavBar/navabar.jsx'
 import { Header} from './components/Header/header.jsx'
 import { Logo } from './components/Logo/Logo.jsx'
 import { Product } from './components/Product/Product.jsx'
+import { Content } from './components/Content/Content.jsx'
+import { Footer } from './components/Footer/Footer.jsx'
+import { CTA } from './components/CTA/CTA.jsx'
 
 //import viteLogo from '/vite.svg'
 //import './App.css'
@@ -17,6 +20,9 @@ function App() {
       <Header/>
       <Logo/>
       <Product/>
+      <Content/>
+      <CTA/>
+      <Footer/>
     </>
   )
 }

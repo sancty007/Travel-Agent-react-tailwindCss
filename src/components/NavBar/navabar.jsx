@@ -24,15 +24,15 @@ export const Navbar = () =>{
 
                     </div>
                     <div className="flex justify-center items-center">
-                        <a href="#" className=" pr-8">Home</a>
+                        <a href="#" className=" pr-8 text-blue-400">Home</a>
                         <a href="#" className=" pr-8">about</a>
                         <a href="#" className=" pr-8">packages</a>
                         <a href="#" className=" pr-8">FAQ</a>
                         <a href="#" className=" pr-8">community</a>
                     </div>
                     <div>
-                        <button className="rounded-lg text-white bg-gray-800 px-5 py-2 ml-4 mr-3">login</button>
-                        <button className="border border-x-gray-400 rounded-lg px-5 py-2">Sing up</button>
+                        <button className="rounded-lg px-5 py-2 ml-4 mr-3 border border-gray-400">login</button>
+                        <button className=" bg-gray-800 rounded-lg px-5 py-2 text-white">Sing up</button>
                     </div>
                 </div>
             </div>
